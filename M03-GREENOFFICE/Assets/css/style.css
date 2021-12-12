@@ -1,0 +1,63 @@
+.clearfix {
+    clear: both;
+}
+
+body {
+    background-image: url(../img/fond.png);
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+header {
+    background-color: #b8cb21;
+}
+
+header nav {
+    float: right;
+    font-family: Oswald;
+    padding: 50px 10px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+header a {
+    color: #315621;
+    padding: 0 10px;
+}
+
+main {
+    padding: 10px;
+    background-color: white;
+}
+
+main section {
+    margin: 20px;
+}
+
+main section h1 {
+    font-family: Oswald;
+    color: #b8cb21;
+}
+
+main section img {
+    float: left;
+    width: 200px;
+    margin: 0 10px;
+}
+
+.button {
+    float: right;
+    background-color: #b8cb21;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 20px;
+}

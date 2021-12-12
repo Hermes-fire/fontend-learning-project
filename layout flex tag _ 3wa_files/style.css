@@ -1,0 +1,49 @@
+nav {
+    display: block;
+    background-color: rgb(243, 243, 156);
+    height: 20%;
+}
+
+nav h1 {
+    display: block;
+}
+
+nav section {
+    display: inline-block;
+    background-color: white;
+    width: 15%;
+    padding: 1%;
+}
+
+#section_nav1 {
+    width: 30%;
+    margin-left: 10%;
+}
+
+aside {
+    display: inline-block;
+    background-color: blue;
+    width: 15%;
+    height: 100%;
+    padding: 5%;
+}
+
+#container {
+    display: flex;
+}
+
+#section_1 {
+    display: inline-block;
+    background-color: orange;
+    width: 70%;
+    height: 20%;
+}
+
+#section_2 {
+    display: inline-block;
+    background-color: orange;
+    width: 70%;
+    height: 10%;
+}
+
+#section_3 {}

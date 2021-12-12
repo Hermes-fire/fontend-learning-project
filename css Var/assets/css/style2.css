@@ -1,0 +1,31 @@
+:root{
+    --color: #e74c3c;
+    --spacing:10px;
+    --blur:5px;
+}
+body{
+    background-color: blue;
+}
+h1{
+    color:white;
+    font-size: 4em;
+    text-align: center;
+}
+span{
+    color: var(--color);
+}
+section{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+label{
+    color:white;
+}
+img{
+    padding: var(--spacing);
+    margin-top: 2%;
+    width: 100% ;
+    background-color: var(--color);
+    filter: blur(var(--blur));
+}

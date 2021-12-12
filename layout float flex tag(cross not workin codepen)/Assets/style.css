@@ -1,0 +1,66 @@
+header {
+    display: block;
+    padding: 1% 0;
+    background-color: rgb(243, 243, 156);
+}
+
+nav {
+    display: block;
+    padding: 2% 0;
+    background-color: rgb(243, 243, 156);
+}
+
+nav section {
+    display: inline-block;
+    background-color: white;
+    padding: 1% 5%;
+    margin-left: 5%;
+}
+
+nav section:first-child {
+    padding: 1% 15%;
+}
+
+aside {
+    float: left;
+    background-color: rgb(87, 87, 163);
+    width: 25%;
+    height: 80%;
+    margin-top: 1%;
+}
+
+#right_sections {
+    float: right;
+    width: 75%;
+    height: 80%;
+    margin-top: 1%;
+}
+
+#orange {
+    background-color: rgb(247, 204, 125);
+    height: 30%;
+    margin: 2%;
+}
+
+#red {
+    background-color: rgb(238, 131, 131);
+    height: 30%;
+    margin: 2%;
+}
+
+#green {
+    background-color: rgb(165, 240, 146);
+    height: 30%;
+    margin: 2%;
+}
+
+#red_section {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#red_section section {
+    background-color: white;
+    margin: 4% 5%;
+    padding: 1% 5%;
+}

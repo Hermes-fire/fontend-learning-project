@@ -1,0 +1,40 @@
+span {
+    color: rgb(99, 97, 97);
+}
+
+#arial {
+    font-family: Arial;
+}
+
+#arial p:first-child {
+    color: red;
+}
+
+#arial p:nth-child(2) {
+    color: blue;
+}
+
+#arial p:nth-child(3) {
+    color: green;
+}
+
+#monospace {
+    font-family: monospace;
+}
+
+#monospace p:first-child {
+    background-color: red;
+}
+
+#monospace p:nth-child(2) {
+    background-color: blue;
+}
+
+#monospace p:nth-child(3) {
+    background-color: green;
+}
+
+footer {
+    text-align: center;
+    font-size: 8px;
+}

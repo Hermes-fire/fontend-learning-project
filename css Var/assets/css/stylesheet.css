@@ -1,0 +1,28 @@
+body {
+  background-color: #193549;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+h1{
+    font-size: 80px;
+}
+span {
+  color: var(--base);
+}
+input {
+  font-size: 100px;
+}
+.controls {
+  margin-bottom: 30px;
+}
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}

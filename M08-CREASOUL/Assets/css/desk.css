@@ -1,0 +1,30 @@
+header nav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav a {
+    font-size: 1.6em;
+    width: 33%;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    width: 72%;
+}
+
+aside {
+    width: 20%;
+}
+
+#img-tab {
+    display: none;
+}
+
+#img-desk {
+    display: block;
+}

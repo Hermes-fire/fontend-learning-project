@@ -1,0 +1,42 @@
+.img-fluid {
+    height: 100%;
+}
+
+.pad {
+    padding-bottom: 20px;
+}
+
+.marg {
+    margin-bottom: 20px;
+}
+
+.button1 {
+    background-color: #58b358;
+}
+
+.button2-1 {
+    width: 100%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid #28a4c9;
+    background-color: #51bbdb;
+}
+
+.button2-2 {
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid #28a4c9;
+    background-color: #51bbdb;
+}
+
+.button2-3 {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px solid #28a4c9;
+    background-color: #51bbdb;
+}
+
+.pad1 {
+    padding: 0;
+}

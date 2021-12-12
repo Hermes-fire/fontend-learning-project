@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app |  M18-JQUERY:AJAX Hermes-Fire</title>
+    <link rel="stylesheet" href="../Assets/Css/global.css">
+    <link rel="stylesheet" href="../Assets/Css/current.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+
+  </head>
+
+<body>
+    <header>
+        <section>
+        <img src="../Assets/Img/logo.png" alt="app-logo">
+        <a id="logo-title" href="../index.html">Weather App</a>
+        </section>
+        <nav id ="navbar">
+            <a href="./current.html">Current</a>
+            <a href="./forecast.html">Forcast</a>
+            <a href="#">Open Weather Map</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id = "section1">
+            <h1>GET Weather Forecast</h1>
+        </section>
+        <section id = "section2">
+            <form>
+                <label for="city-name" id = "label1">Enter City Name</label><br><br>
+                <input type="text" id="city-name" name="city-name" placeholder="Enter city name">
+                <label for="city-number"></label>
+                <input type="number" id="city-number" name="city-number"  min = "1" max = "16" placeholder="Number:Min - 1 & Max - 16">
+                <button id = "b">Search City</button>
+            </form>
+        </section>
+        <section id = "section3">
+            <h1>Weather forecast for<span>aa</span></h1>
+                <table class="tg">
+                <thead>
+                  <tr>
+                    <th class="tg-aqaq">Icon</th>
+                    <th class="tg-aqaq">Weather</th>
+                    <th class="tg-aqaq">Description</th>
+                    <th class="tg-aqaq">Morning<br>Temperature</th>
+                    <th class="tg-aqaq">Night<br>Temperature</th>
+                    <th class="tg-aqaq">Min.<br>Temperature</th>
+                    <th class="tg-aqaq">Max.<br>Temperature</th>
+                    <th class="tg-aqaq">Pressure</th>
+                    <th class="tg-aqaq">Humidity</th>
+                    <th class="tg-aqaq">Wind Speed</th>
+                    <th class="tg-aqaq">Wind <br>Direction</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                  </tr>
+                  <tr>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                    <td class="tg-wman"></td>
+                  </tr>
+                </tbody>
+                </table>
+        </section>
+    </main>
+
+    <footer>
+        <span>Copyright &copy; Weather App</span>
+    </footer>
+</body>
+<script src = '../Assets/Js/current.js'></script>
+</html>

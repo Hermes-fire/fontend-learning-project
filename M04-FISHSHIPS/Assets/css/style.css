@@ -1,0 +1,166 @@
+.clearfix {
+    clear: both;
+}
+
+body {
+    min-width: 800px;
+    max-width: 1100px;
+    font-family: 'Open Sans';
+    font-size: 1em;
+    background-image: url(../img/fond.png);
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Slabo 27px';
+}
+
+header {
+    background-color: #34b1b2;
+    margin-top: 5%;
+    border: 5px solid #2b9aa0;
+    border-bottom: 5px solid #2b9aa0;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+header nav {
+    font-family: 'Slabo 27px';
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+header a {
+    color: white;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+#welcom {
+    color: #4e5c64;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#welcom h1 {
+    margin: 10px;
+    font-size: 2.5em;
+}
+
+#container {
+    width: 70%;
+    margin: auto;
+}
+
+#leftsection {
+    background-color: #b6dedc;
+    float: left;
+    width: 70%;
+}
+
+#leftsection h1 {
+    margin: 10px;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+#leftarticle h1 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+#leftsection h1 span {
+    color: #2b9aa0;
+}
+
+#leftarticle h1 i {
+    color: #2b9aa0;
+}
+
+#leftarticle img {
+    margin: 5px;
+    float: left;
+    border-radius: 100%;
+}
+
+#rightarticle {
+    float: right;
+    width: 42%;
+    margin: 0 3%
+}
+
+#rightarticle h1 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+#rightarticle h1 i {
+    color: #2b9aa0;
+}
+
+#rightarticle img {
+    margin: 5px;
+    float: left;
+    border-radius: 100%;
+}
+
+.button {
+    background-color: #2b9aa0;
+    border: none;
+    color: white;
+    padding: 5% 10%;
+    margin: 5%;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    font-size: 16px;
+}
+
+aside {
+    background-color: #34b1b2;
+    border: 5px solid #2b9aa0;
+    float: right;
+    width: 28%;
+    color: #e2f4f5;
+    position: relative;
+}
+
+aside img {
+    position: absolute;
+    width: 100px;
+    top: -50px;
+    right: -50px;
+}
+
+aside h1 {
+    margin: 5% 10%;
+}
+
+aside h2 {
+    font-size: 1em;
+    color: #81e0e0;
+}
+
+aside span {
+    color: #81e0e0;
+}
+
+aside article {
+    margin: 2% 5%;
+}
+
+#leftarticle {
+    float: left;
+    width: 42%;
+    margin: 0 3%;
+}
+
+footer {
+    margin: 5%;
+    text-align: center;
+}

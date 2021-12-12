@@ -1,0 +1,40 @@
+#red {
+    background-color: red;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+}
+
+#green {
+    background-color: green;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    right: 0;
+}
+
+#blue {
+    background-color: blue;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    bottom: 0;
+}
+
+#purple {
+    background-color: purple;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    bottom: 0;
+    right: 0;
+}
+
+footer {
+    background-color: grey;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 40%;
+    left: 40%;
+}

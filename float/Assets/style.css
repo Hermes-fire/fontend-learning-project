@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(236, 201, 136);
+    margin: 1%;
+    color: rgb(0, 105, 0);
+}
+
+section img {
+    float: left;
+    width: 60%;
+    margin: 0 1%;
+}
+
+section p {
+    float: right;
+}
+
+footer img {
+    width: 5%;
+}
+
+footer a {
+    margin-top: 10%;
+}

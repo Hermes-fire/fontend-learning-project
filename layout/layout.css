@@ -1,0 +1,52 @@
+#header {
+    height: 10vh;
+    background-color: rgb(22, 22, 156);
+    color: white;
+    text-align: center;
+    line-height: 10vh;
+}
+
+#menu {
+    height: 10vh;
+    background-color: rgb(223, 137, 39);
+    color: white;
+    text-align: center;
+    line-height: 10vh;
+}
+
+#section {
+    float: left;
+    height: 70vh;
+    width: 70vw;
+    background-color: rgb(120, 193, 218);
+    color: white;
+}
+
+.sub_section {
+    margin: 5vh auto;
+    padding: 5vh 0;
+    width: 60vw;
+    background-color: grey;
+    text-align: center;
+}
+
+#sidebar {
+    float: right;
+    height: 70vh;
+    width: 25vw;
+    background-color: rgb(15, 150, 196);
+    color: black;
+    text-align: center;
+    line-height: 70vh;
+}
+
+#footer {
+    clear: both;
+    display: block;
+    text-align: center;
+    line-height: 10vh;
+    height: 10vh;
+    width: 100%;
+    background-color: blue;
+    color: white;
+}

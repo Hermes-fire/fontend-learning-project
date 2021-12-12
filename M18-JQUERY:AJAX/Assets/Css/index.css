@@ -1,0 +1,31 @@
+#section1 {
+    background-image: url("../Img/bg.jpg");
+    background-position: top center;
+    color: white;
+    padding: 2%;
+}
+#section1 h1{
+    font-size: 1.8em;
+}
+#section2 {
+    margin: auto;
+    width: 85%;
+}
+#section2 h3 {
+    color:var(--bcolor);
+}
+#section3 {
+    display: flex; 
+    margin: auto;
+    width: 90%;
+}
+
+#section3 article{ 
+    border: 1px solid rgb(202, 202, 202);
+    padding: 1em;
+}
+
+i {
+    color: var(--bcolor);
+    font-size: 3em;
+}

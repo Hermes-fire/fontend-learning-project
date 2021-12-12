@@ -1,0 +1,11 @@
+aside {
+    display: block;
+}
+
+#img-mobile {
+    display: none;
+}
+
+#img-tab {
+    display: block;
+}

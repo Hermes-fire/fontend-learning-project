@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="../assets/css/forecast.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+            <img src="../assets/img/logo.png" />
+            <h1><a href="../index.html">Weather App</a></h1>
+          </div>
+          <nav>
+            <a href="./current.html">Current</a>
+            <a href="./forecast.html">Forecast</a>
+            <a href="#contact">Open Weather Map</a>
+          </nav>
+        </header>
+    </header>
+    <main>
+        <h2 class="current">Get Weather Forecast</h2>
+        <section>
+          
+            <label for="site-search">Enter City Name</label>
+            <div class="input">
+            <input
+              type="search"
+              id="site-search"
+              name="q"
+              aria-label="Search through site content"
+              placeholder="Enter City Name"
+            />
+            <input style="width:180px" id="number" type="number" placeholder="number: min=1 & max=16" min="1" max="16">
+            <button>Search City</button>
+          </div>
+          <section class="information">
+            <h3>Weather forecast <span></span></h3>
+            <table >
+              <tr>
+                <th>Icon</th>
+                  <th>Weather </th>
+                  <th>Description </th>
+                  <th>Morning Temperature </th>
+                  <th>Night Temperature </th>
+                  <th>Min Temp </th>
+                  <th>Max Temp </th>
+                  <th>Pressure </th>
+                  <th>Humidity </th>
+                  <th>Wind Speed</th>
+                  <th>Wind direction </th>
+                </tr>
+              </table>  
+          </section>
+    </main>
+    <footer>
+        <p>Copyrigth <i class="fas fa-copyright"></i> Weather App</p>
+    </footer>
+    
+  </body>
+<script src="../assets/js/scriptforscat.js"></script>
+</html>

@@ -1,0 +1,29 @@
+#section1{
+    background-color: var(--bcolor);
+    padding: 2%;
+    color:white;
+}
+#section2{
+    padding: 2%;
+}
+#label1{
+    color:var(--bcolor1);
+    font-size: 1.2em;
+}
+input[type=submit]{
+    background-color: var(--bcolor2);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 3px 6px;
+}
+#section3 {
+    background-color: var(--bcolor);
+    border-radius: 20px;
+    color:white;
+    margin: auto;
+    padding: 0.5em 3em;
+    width: 50%;
+}
+section h4{
+    text-align: left;
+}

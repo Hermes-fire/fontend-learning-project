@@ -1,0 +1,32 @@
+#section1{
+    background-color: var(--bcolor);
+    padding: 2%;
+    color:white;
+}
+
+#section2{
+    padding: 2%;
+}
+#label1{
+    color:var(--bcolor1);
+    font-size: 1.2em;
+}
+#button{
+    background-color: var(--bcolor2);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 3px 6px;
+}
+
+input[type=number]{
+    width: 200px;
+}
+
+
+
+.tg  {border-collapse:collapse;border-spacing:0;margin:auto;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-wman{border-color:#c0c0c0;text-align:center;vertical-align:middle}
+.tg .tg-aqaq{background-color:var(--bcolor);border-color:#c0c0c0;color:#ffffff;font-weight:bold;text-align:center;vertical-align:middle}
+                
